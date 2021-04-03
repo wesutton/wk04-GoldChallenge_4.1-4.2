@@ -18,6 +18,17 @@
 
 // Create a polygon with side lengths 3, 3, 8, and 8
 
+class polygon{
+    constructor(sides){
+        this.sideLengths = sides;
+    }
+    perimeter(){
+        return this.sideLengths.reduce((sum, side) => sum + side);
+    }
+}
+const quadrilateral = new polygon([3, 3, 8, 8]);
 
-  
+console.log(quadrilateral.perimeter());
+
 // Print the perimeter
+

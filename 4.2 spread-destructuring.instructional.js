@@ -17,3 +17,15 @@ gifts: [],
 clothing: [],
 grocery: []
 };
+
+let cleaning = shoppingList[1];
+let gifts = shoppingList[3];
+let clothing = shoppingList[2];
+let grocery = shoppingList[0];
+
+obj.cleaning.push(cleaning);
+obj.gifts.push(gifts);
+obj.clothing.push(clothing);
+obj.grocery.push(grocery);
+console.log(obj);
+
